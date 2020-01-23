@@ -1,11 +1,3 @@
-/*
-
-Template 2083 Steak House
-
-http://www.tooplate.com/view/2083-steak-house
-
-*/
-
 body {
 		background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
@@ -193,9 +185,9 @@ a:focus {
 }
 
 #home .gradient-overlay {
-  background: #c21500; /* fallback for old browsers */  
-  background: -webkit-linear-gradient(to left, #c21500 , #ffc500); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #37c200; /* fallback for old browsers */  
+  background: -webkit-linear-gradient(to left, #37c200 , #ffc500); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #37c200 , #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.8;      
   position: absolute;
   top: 0;
@@ -204,6 +196,7 @@ a:focus {
 }
 
 #home .btn {
+  font-weight: bold;
   background: transparent;
   border: 3px solid #ffffff;
   color: #ffffff;
@@ -215,7 +208,7 @@ a:focus {
 }
 #home .btn:hover,
 #home .btn:focus {
-  color: #c21500;
+  color: #37c200;
 }
 
 
@@ -228,7 +221,7 @@ a:focus {
 }
 
 .navbar-default .navbar-brand {
-  color: #505050;
+  color: #505050;  
   font-size: 28px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -238,6 +231,7 @@ a:focus {
 
 .navbar-default .navbar-nav li a {
     color: #757575;
+    text-transform: uppercase;
     font-size: 19px;
     font-weight: 300;
     line-height: 50px;
@@ -246,7 +240,7 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #c21500 !important;
+    color: #37c200 !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -258,8 +252,9 @@ a:focus {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #c21500;
+    color: #37c200;
     background-color: transparent;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-toggle {
@@ -303,7 +298,7 @@ a:focus {
   transition: all 0.4s ease-in-out;
 }
 #feature .feature-icon:hover {
-  background-color: #c21500;
+  background-color: #37c200;
 }
 #feature .feature-icon span {
   display: table-cell;
@@ -377,6 +372,10 @@ a:focus {
   margin-top: 22px;
 }
 
+.img-home {
+  display: flex;
+  float: left;
+}
 
 
 /* Menu section */
@@ -436,7 +435,7 @@ a:focus {
 #team .team-thumb:hover .team-des {
   color: #ffffff;
   height: 100%;
-  background-color: #c21500;
+  background-color: #37c200;
   padding-top: 30%;
   opacity: 0.9;
 }
@@ -447,7 +446,7 @@ a:focus {
 }
 
 #team .join-team {
-  background-color: #c21500;
+  background-color: #37c200;
   color: #f0f0f0;
   padding: 30px 20px;
   text-align: center;
@@ -479,7 +478,9 @@ a:focus {
   padding-bottom: 16px;
 }
 
-
+#gallery {
+  background: #c3ebb1;
+}
 
 /* Gallery section */
 #gallery .gallery-thumb {
@@ -489,7 +490,7 @@ a:focus {
 } 
 
 #gallery .gallery-thumb .gallery-overlay {
-  background: #c21500;
+  background: #919191;
   position: absolute;
   top: 0;
   right: 0;
@@ -515,7 +516,11 @@ a:focus {
       -ms-transform:translate(-50%,-50%);
           transform:translate(-50%,-50%);
 }
-
+.fi-footer i {
+  font-size: 50px;
+  text-decoration: none;
+  color: #ffffff;
+}
 #gallery .gallery-thumb .fa {
   background: #ffffff;
   border-radius: 100%;
@@ -556,7 +561,7 @@ a:focus {
 }
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
-  color: #C21500;
+  color: #ffffff;
 }
 
 /*isotope box css*/
@@ -629,8 +634,9 @@ a:focus {
 
 #contact input[type='submit'] {
   background: #ffffff;
+  text-transform: uppercase;
   border-radius: 4px;
-  color: #c21500;
+  color: #37c200;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -639,7 +645,7 @@ a:focus {
   transition: all 0.4s ease-in-out;
 }
 #contact input[type='submit']:hover {
-  background-color: #c21500;
+  background-color: #37c200;
   border-color: transparent;
   color: #ffffff;
 }
@@ -651,6 +657,9 @@ footer {
   color: #757575;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.img-pay {
+  width: 100px;
 }
 
 footer h3 {
@@ -666,6 +675,28 @@ footer strong {
   padding-top: 6px;
   padding-bottom: 2px;
 }
+.btn-pay {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+  
+  #myBtn {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    border: 5px solid black;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    background-color: #37c200;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+    width: 200px;
+  }
 
 
 /* copyright section  */
@@ -682,7 +713,7 @@ footer strong {
   transition: all 0.4s ease-in-out;
 }
 .gototop:hover {
-  background-color: #c21500;
+  background-color: #37c200;
   color: #fff;
 }
 
@@ -780,6 +811,27 @@ footer strong {
 }
 
 @media (max-width: 650px) {
+
+  .img-pay {
+    width: 100px;
+  }
+  #myBtn {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    border: 5px solid black;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    background-color: #37c200;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+    width: 200px;
+  }
 
   #home {
     height: 100vh;
