@@ -630,9 +630,9 @@ a:focus {
   border-color: #ddd;
 }
 
-#contact input {height: 45px;}
+#contact button {height: 45px;}
 
-#contact input[type='submit'] {
+#contact button[type='submit'] {
   background: #ffffff;
   text-transform: uppercase;
   border-radius: 4px;
@@ -644,7 +644,7 @@ a:focus {
   margin-top: 20px;
   transition: all 0.4s ease-in-out;
 }
-#contact input[type='submit']:hover {
+#contact button[type='submit']:hover {
   background-color: #37c200;
   border-color: transparent;
   color: #ffffff;
