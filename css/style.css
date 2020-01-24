@@ -186,8 +186,8 @@ a:focus {
 
 #home .gradient-overlay {
   background: #37c200; /* fallback for old browsers */  
-  background: -webkit-linear-gradient(to left, #37c200 , #ffc500); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #37c200 , #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to left, #37c200 , #37c200); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #37c200 , #37c200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.8;      
   position: absolute;
   top: 0;
@@ -652,6 +652,23 @@ a:focus {
 
 
 /* Footer section  */
+
+.signature {
+  height: 40px;
+  padding-left: 40px;
+  padding-top: 10px;
+  align-items: center;
+  font-weight: bold;
+}
+.flt-right {
+  padding-right: 20px;
+  display: flex;
+  float: right;
+}
+
+.hotmart img {
+  width: 20px;
+}
 footer {
   background-color: #141414;
   color: #757575;
@@ -812,6 +829,27 @@ footer strong {
 
 @media (max-width: 650px) {
 
+  .signature {
+    height: 30px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    padding-right: 23px;
+    padding-bottom: 10px;
+  }
+  
+  .hotmart img {
+    display: none;
+  }
+
+#menu .media-object img {
+  width: 220px;
+  padding-right: 0px;
+  position: relative;
+}
+.media-left, .media>.pull-left {
+  padding-right: 0px;
+}
   .img-pay {
     width: 100px;
   }
