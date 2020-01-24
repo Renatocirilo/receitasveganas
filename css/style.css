@@ -654,8 +654,8 @@ a:focus {
 /* Footer section  */
 
 .signature {
+  text-align: center;
   height: 40px;
-  padding-left: 40px;
   padding-top: 10px;
   align-items: center;
   font-weight: bold;
@@ -678,6 +678,11 @@ footer {
 .img-pay {
   width: 100px;
 }
+.img-hot {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
 
 footer h3 {
   color: #ffffff;
@@ -692,6 +697,9 @@ footer strong {
   padding-top: 6px;
   padding-bottom: 2px;
 }
+
+
+
 .btn-pay {
   text-transform: uppercase;
   font-weight: bold;
@@ -713,6 +721,44 @@ footer strong {
     padding: 15px;
     border-radius: 50px;
     width: 250px;
+  }
+
+  #btn-contagem {
+    background-color: #37c200;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    height: 80px;
+  }
+
+  .btn-contagem a {
+    text-align: center;
+  }
+
+  .contador-m {
+    text-align: center;
+    border: 1px solid #cccccc;
+    height: 120px;
+    position: relative;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contador {
+    margin-top: 100px;
+  }
+  .contador h2 {
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 8px;
+  }
+  .contador span {
+    font-size: 70px;
+    color: #cccccc;
   }
 
 
@@ -835,10 +881,10 @@ footer strong {
 
   .signature {
     height: 30px;
+    text-align: center;
     font-size: 10px;
     display: flex;
     justify-content: center;
-    padding-right: 23px;
     padding-bottom: 10px;
   }
   
@@ -882,7 +928,7 @@ footer strong {
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 40px;
   }
   h2 {
     font-size: 30px;
