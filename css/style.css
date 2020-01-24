@@ -806,7 +806,9 @@ footer strong {
 }
 
 @media (max-width: 767px) {
-
+  .img-logo img{
+    width: 50px;
+  }
   .navbar-default .navbar-brand {
     line-height: 15px;
   }
@@ -827,7 +829,10 @@ footer strong {
 
 }
 
-@media (max-width: 650px) {
+@media (max-width: 678px) {
+  .img-logo img{
+    width: 50px;
+  }
 
   .signature {
     height: 30px;
