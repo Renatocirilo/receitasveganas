@@ -393,6 +393,9 @@ a:focus {
   color: #37c200;
   font-weight: bold;
 }
+.green {
+  color: #37c200;
+}
 
 #video .btn-b {
   height: 54px;
@@ -925,6 +928,13 @@ footer strong {
     width: 50px;
   }
 
+  #contact h2 {
+    font-size: 20px;
+  }
+  #video p {
+    font-size: 15px;
+  }
+
   .signature {
     height: 30px;
     text-align: center;
@@ -938,6 +948,13 @@ footer strong {
     display: none;
   }
 
+  .contador h2 {
+    font-size: 19px;
+  }
+  .contador p {
+    font-size: 15px;
+    font-weight: bold;
+  }
 #menu .media-object img {
   width: 220px;
   padding-right: 0px;
