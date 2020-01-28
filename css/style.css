@@ -852,7 +852,12 @@ footer strong {
   margin-bottom: 12px;
   margin-right: 10px;
 }
-
+.images-dec p {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
 .social-icon li a:hover {
   background: #111;
   color: #ffffff;
