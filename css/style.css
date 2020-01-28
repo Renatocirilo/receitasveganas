@@ -1001,9 +1001,14 @@ footer strong {
   #home {
     height: 100vh;
   }
+  #home p{
+    font-weight: bold;
+  }
+  
 
   h1 {
     font-size: 40px;
+    color: #f5ef07;
   }
   h2 {
     font-size: 30px;
