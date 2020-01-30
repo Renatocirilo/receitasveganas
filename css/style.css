@@ -88,6 +88,7 @@ a:focus {
 #feature,
 #video,
 #menu,
+#bonus,
 #team,
 #gallery,
 #contact {
@@ -105,7 +106,8 @@ a:focus {
 }
 
 #feature,
-#team {
+#team,
+#bonus {
   background: rgb(240,240,240);
 }
 
@@ -404,6 +406,7 @@ a:focus {
   font-family: 'Source Sans Pro', sans-serif;
   color: #fff;
   font-size: 16px;
+  letter-spacing: 2px;
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
@@ -955,7 +958,25 @@ footer strong {
     justify-content: center;
     padding-bottom: 10px;
   }
-  
+
+  /* BONUS  */
+
+  .bonus img {
+    display: none;
+    text-align: left !important;
+  }
+  .bonus h3 {
+    text-align: center;
+    background-image: url(../images/goovegan.png) no-repeat;
+  }
+
+  .bonus-text h3 {
+    display: block;
+  }
+
+  /* BONUS  */
+
+
   .hotmart img {
     display: none;
   }
@@ -1023,6 +1044,7 @@ footer strong {
   #feature,
   #video,
   #menu,
+  #bonus,
   #team,
   #gallery,
   #contact {
@@ -1034,6 +1056,14 @@ footer strong {
     width: 100%;
     padding-bottom: 14px;
   }
+
+  #bonus img {
+    width: 100%;
+    padding-left: 400px;
+    padding-bottom: 14px;
+  }
+
+
   #menu .media-object span.menu-price {
     top: 30%;
     left: 6%;
